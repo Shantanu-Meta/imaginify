@@ -73,7 +73,7 @@ export async function deleteUser(clerkId) {
 }
 
 // USE CREDITS
-export async function updateCredits(userId: string, creditFee: number) {
+export async function updateCredits(userId, creditFee) {
   try {
     await connectWithMongo();
 
